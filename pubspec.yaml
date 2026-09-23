@@ -1,0 +1,22 @@
+name: fhir_cds_hooks
+description: CDS Hooks 2.0 client and service support for FHIR, for every FHIR version; resources travel as the JSON the specification defines.
+version: 0.13.0
+homepage: https://www.fhirfli.dev/
+repository: https://github.com/fhir-fli/fhir_cds_hooks
+issue_tracker: https://github.com/fhir-fli/fhir_cds_hooks/issues
+
+topics:
+  - fhir
+  - hl7
+  - healthcare
+  - cds-hooks
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  http: ^1.6.0
+
+dev_dependencies:
+  test: ^1.29.0
+  very_good_analysis: ^10.1.0
